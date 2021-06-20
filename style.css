@@ -21,7 +21,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-  z-index: -100;
+  z-index: -1000;
 }
 
 .name {
@@ -38,6 +38,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px;
   position: absolute;
+  z-index: 1;
 }
 
 .med-square {
@@ -153,6 +154,56 @@ body {
   z-index: -9;
 }
 
+.seventy-one {
+  bottom: 20%;
+  right: 10%;
+  z-index: 100;
+}
+
+/* Medium Squares Center */
+
+.sixty-six {
+  top: -5%;
+  left: 32%;
+  z-index: -99;
+}
+
+.sixty-seven {
+  top: 25%;
+  left: 40%;
+  z-index: -100;
+}
+
+.sixty-eight {
+  top: 1%;
+  right: 39%;
+  z-index: -100;
+}
+
+.sixty-nine {
+  top: 45%;
+  left: 35%;
+  z-index: 1;
+}
+
+.seventy {
+  top: 2%;
+  left: 24%;
+  z-index: -99;
+}
+
+.sixty-four {
+  bottom: 10%;
+  left: 41%;
+  z-index: 10;
+}
+
+.sixty-five {
+  top: 35%;
+  left: -3%;
+  z-index: -99;
+}
+
 /* Medium Squares Right */
 
 .eleven {
@@ -264,4 +315,160 @@ body {
   left: 32%;
   top: 3%;
   z-index: -99;
+}
+
+/* Small Squares Left */
+
+.thirty-six {
+  top: 55%;
+  left: 5%;
+  z-index: -99;
+}
+
+.thirty-seven {
+  bottom: 20%;
+  left: 35%;
+}
+
+.thirty-eight {
+  bottom: 5%;
+  left: 18%;
+}
+.thirty-nine {
+  bottom: 10%;
+  left: 13%;
+  z-index: -99;
+}
+
+.fourty {
+  top: 10%;
+  left: 40%;
+}
+
+.fourty-one {
+  top: -5%;
+  left: 25%;
+}
+.fourty-two {
+  top: 2%;
+  left: 15%;
+}
+.fourty-three {
+  top: 50%;
+  left: 10%;
+}
+.fourty-four {
+  bottom: -5%;
+  left: 33%;
+}
+.fourty-five {
+  top: 15%;
+  left: 10%;
+}
+
+/* Small Squares Right */
+
+.fourty-six {
+  top: 47%;
+  right: -1%;
+  z-index: -99;
+}
+
+.fourty-seven {
+  top: 3%;
+  right: 18%;
+  z-index: -99;
+}
+
+.fourty-eight {
+  top: 30%;
+  right: 28%;
+  z-index: 10;
+}
+
+.fourty-nine {
+  bottom: 1%;
+  right: 38%;
+}
+
+.fifty {
+  bottom: 27%;
+  right: 41%;
+  z-index: 10;
+}
+
+.fifty-one {
+  bottom: 27%;
+  right: 4%;
+}
+
+.fifty-two {
+  bottom: 15%;
+  right: 23%;
+  z-index: -99;
+}
+
+.fifty-three {
+  bottom: -2%;
+  right: 18%;
+}
+
+.fifty-four {
+  top: 6%;
+  right: 1%;
+  z-index: 10;
+}
+
+.fifty-five {
+  top: 6%;
+  right: 38%;
+  z-index: -99;
+}
+
+/* Small Squeare Center */
+
+.fifty-six {
+  top: 30%;
+  left: 45%;
+  z-index: -99;
+}
+
+.fifty-seven {
+  bottom: 10%;
+  left: 50%;
+  z-index: -99;
+}
+
+.fifty-eight {
+  top: 50%;
+  left: 30%;
+  z-index: 10;
+}
+
+.fifty-nine {
+  top: 40%;
+  left: 37%;
+  z-index: -99;
+}
+
+.sixty {
+  top: 25%;
+  right: 43%;
+  z-index: 10;
+}
+
+.sixty-one {
+  top: 32%;
+  right: 12%;
+  z-index: -99;
+}
+
+.sixty-two {
+  bottom: 30%;
+  right: 23%;
+}
+
+.sixty-three {
+  bottom: 4%;
+  right: 25%;
 }
