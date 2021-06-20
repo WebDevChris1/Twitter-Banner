@@ -21,12 +21,13 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-  z-index: -10;
+  z-index: -100;
 }
 
 .name {
   font-size: 50px;
   font-weight: bold;
+  z-index: 100;
 }
 
 .small-square {
@@ -40,23 +41,52 @@ body {
 }
 
 .med-square {
+  height: 100px;
+  width: 100px;
   background-color: #d4d4d4;
   border: 1px solid #d4d4d4;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px;
-  height: 100px;
-  width: 100px;
   position: absolute;
 }
 
 .big-square {
+  height: 200px;
+  width: 200px;
   background-color: #d4d4d4;
   border: 1px solid #d4d4d4;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px;
-  height: 200px;
-  width: 200px;
   position: absolute;
+}
+
+/* Big Squares Center */
+
+.thirty-one {
+  top: 10%;
+  right: 40%;
+}
+
+.thirty-two {
+  bottom: 30%;
+  left: 50%;
+}
+
+.thirty-three {
+  bottom: 5%;
+  right: 25%;
+  z-index: -99;
+}
+
+.thirty-four {
+  top: 33%;
+  left: 25%;
+}
+
+.thirty-five {
+  bottom: 2%;
+  left: 37%;
+  z-index: -99;
 }
 
 /* Big Squares Left */
@@ -68,20 +98,20 @@ body {
 }
 
 .two {
-  left: 8%;
-  bottom: 15%;
-  z-index: -9;
+  left: 12%;
+  bottom: 18%;
+  z-index: -98;
 }
 
 .three {
-  left: 1%;
-  bottom: 5%;
-  z-index: -9;
+  left: 3%;
+  top: 5%;
+  z-index: -99;
 }
 
 .four {
   left: 0;
-  top: -10%;
+  bottom: -10%;
   z-index: -9;
 }
 
@@ -121,4 +151,117 @@ body {
   right: 20%;
   top: 10%;
   z-index: -9;
+}
+
+/* Medium Squares Right */
+
+.eleven {
+  right: 18%;
+  top: 15%;
+}
+
+.twelve {
+  right: 30%;
+  bottom: 15%;
+}
+
+.thirteen {
+  right: 20px;
+  bottom: 260px;
+  z-index: -11;
+}
+
+.fourteen {
+  right: 30%;
+  top: 20%;
+  z-index: -11;
+}
+
+.fifteen {
+  right: 5%;
+  bottom: -10%;
+}
+
+.twenty-one {
+  right: 21%;
+  bottom: 33%;
+  z-index: -99;
+}
+
+.twenty-two {
+  right: 30%;
+  top: -3%;
+}
+
+.twenty-three {
+  right: 10%;
+  top: 40%;
+  z-index: -99;
+}
+
+.twenty-four {
+  right: 10%;
+  top: 5%;
+  z-index: 1;
+}
+
+.twenty-five {
+  right: 40%;
+  bottom: 5%;
+  z-index: 1;
+}
+
+/* Medium Squares Left */
+
+.sixteen {
+  left: 18%;
+  top: 15%;
+}
+
+.seventeen {
+  left: 30%;
+  bottom: 15%;
+}
+
+.eighteen {
+  left: 20px;
+  bottom: 260px;
+  z-index: -11;
+}
+
+.nineteen {
+  left: 30%;
+  top: 20%;
+  z-index: -11;
+}
+
+.twenty {
+  left: 5%;
+  bottom: -10%;
+}
+
+.twenty-six {
+  left: -1%;
+  bottom: 20%;
+}
+
+.twenty-seven {
+  left: 15%;
+  bottom: 25%;
+}
+
+.twenty-eight {
+  left: 43%;
+  top: 5%;
+}
+
+.twenty-nine {
+  left: -1%;
+  top: -5%;
+}
+
+.thirty {
+  left: 32%;
+  top: 3%;
+  z-index: -99;
 }
